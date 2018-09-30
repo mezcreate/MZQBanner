@@ -67,10 +67,19 @@ typedef enum ScrollDirection {
         _scrollView.showsHorizontalScrollIndicator = NO;
         _scrollView.showsVerticalScrollIndicator = NO;
         
-        UILongPressGestureRecognizer *gesture = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(gestureBanner:)];
-        gesture.minimumPressDuration = 0.1;
-        gesture.delegate = self;
-        [_scrollView addGestureRecognizer:gesture];
+        UILongPressGestureRecognizer *lpgesture = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(longPressGestureBanner:)];
+        lpgesture.minimumPressDuration = 0.1;
+        lpgesture.delegate = self;
+        [_scrollView addGestureRecognizer:lpgesture];
+        
+        UIPanGestureRecognizer *panGesture = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(panGestureBanner:)];
+        panGesture.delegate = self;
+        [_scrollView addGestureRecognizer:panGesture];
+        
+        UISwipeGestureRecognizer *swipeGesture = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(swipeGestrueBanner:)];
+        swipeGesture.delegate = self;
+        [_scrollView addGestureRecognizer:swipeGesture];
+        
         
         _pageControl = [[UIPageControl alloc] initWithFrame:CGRectZero];
         [self addSubview:_pageControl];
@@ -306,7 +315,7 @@ typedef enum ScrollDirection {
 //    }
 //}
 
-- (void)gestureBanner:(UIGestureRecognizer *)gesture {
+- (void)longPressGestureBanner:(UIGestureRecognizer *)gesture {
     
     switch (gesture.state) {
         case UIGestureRecognizerStateBegan: {
@@ -332,6 +341,16 @@ typedef enum ScrollDirection {
         default:
             break;
     }
+}
+
+- (void)panGestureBanner:(UIPanGestureRecognizer *)gesture {
+    
+    
+}
+
+- (void)swipeGestrueBanner:(UISwipeGestureRecognizer *)gesture {
+    
+    
 }
 
 //开始定时执行轮播操作
