@@ -10,11 +10,23 @@
 		5E5E6F522160A69D000DB65E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5E6F512160A69D000DB65E /* AppDelegate.m */; };
 		5E5E6F552160A69D000DB65E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5E6F542160A69D000DB65E /* ViewController.m */; };
 		5E5E6F582160A69D000DB65E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E5E6F562160A69D000DB65E /* Main.storyboard */; };
-		5E5E6F5A2160A69E000DB65E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E5E6F592160A69E000DB65E /* Assets.xcassets */; };
 		5E5E6F5D2160A69E000DB65E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E5E6F5B2160A69E000DB65E /* LaunchScreen.storyboard */; };
 		5E5E6F602160A69E000DB65E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5E6F5F2160A69E000DB65E /* main.m */; };
 		5E5E6F6A2160A69E000DB65E /* MZQBannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5E6F692160A69E000DB65E /* MZQBannerTests.m */; };
 		5E5E6F752160A69E000DB65E /* MZQBannerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5E6F742160A69E000DB65E /* MZQBannerUITests.m */; };
+		5E5E6F8F2160A6DC000DB65E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E5E6F8A2160A6DC000DB65E /* Assets.xcassets */; };
+		5E5E6F962160A799000DB65E /* MZQScrollBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5E6F922160A799000DB65E /* MZQScrollBannerView.m */; };
+		5E5E6F972160A799000DB65E /* UIScrollView+UITouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5E6F942160A799000DB65E /* UIScrollView+UITouch.m */; };
+		5E5E6F982160A799000DB65E /* UIImageView+UITouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5E6F952160A799000DB65E /* UIImageView+UITouch.m */; };
+		5E5E6F9F2160A871000DB65E /* timg2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5E5E6F992160A871000DB65E /* timg2.jpeg */; };
+		5E5E6FA02160A871000DB65E /* selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E5E6F9A2160A871000DB65E /* selected.png */; };
+		5E5E6FA12160A871000DB65E /* notselect.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E5E6F9B2160A871000DB65E /* notselect.png */; };
+		5E5E6FA22160A871000DB65E /* timg3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E5E6F9C2160A871000DB65E /* timg3.png */; };
+		5E5E6FA32160A871000DB65E /* timg1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5E5E6F9D2160A871000DB65E /* timg1.jpeg */; };
+		5E5E6FA42160A871000DB65E /* timg4.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5E5E6F9E2160A871000DB65E /* timg4.gif */; };
+		71EBD83E230D7C6D015C8592 /* libPods-MZQBannerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A67BAE85C81F66320F816856 /* libPods-MZQBannerUITests.a */; };
+		7BD8C4E7A5EEAE3284DB59F5 /* libPods-MZQBanner.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C1CDFEEFD823B45D8F2BF4 /* libPods-MZQBanner.a */; };
+		FAAF65DE4E991B1C7E649CFD /* libPods-MZQBannerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9937422D6FD566D64F63E267 /* libPods-MZQBannerTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +47,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16C1CDFEEFD823B45D8F2BF4 /* libPods-MZQBanner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MZQBanner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F9A0A5C5B0044BEBA6752EC /* Pods-MZQBannerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MZQBannerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MZQBannerTests/Pods-MZQBannerTests.release.xcconfig"; sourceTree = "<group>"; };
+		3967B7BE97E1DDEF6BC7EA3C /* Pods-MZQBannerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MZQBannerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MZQBannerUITests/Pods-MZQBannerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		5E5E6F4D2160A69D000DB65E /* MZQBanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MZQBanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E5E6F502160A69D000DB65E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5E5E6F512160A69D000DB65E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5E5E6F532160A69D000DB65E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5E5E6F542160A69D000DB65E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5E5E6F572160A69D000DB65E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5E5E6F592160A69E000DB65E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E5E6F5C2160A69E000DB65E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E5E6F5E2160A69E000DB65E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E5E6F5F2160A69E000DB65E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -51,6 +65,25 @@
 		5E5E6F702160A69E000DB65E /* MZQBannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MZQBannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E5E6F742160A69E000DB65E /* MZQBannerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZQBannerUITests.m; sourceTree = "<group>"; };
 		5E5E6F762160A69E000DB65E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E5E6F8A2160A6DC000DB65E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E5E6F902160A799000DB65E /* UIScrollView+UITouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+UITouch.h"; sourceTree = "<group>"; };
+		5E5E6F912160A799000DB65E /* MZQScrollBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZQScrollBannerView.h; sourceTree = "<group>"; };
+		5E5E6F922160A799000DB65E /* MZQScrollBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZQScrollBannerView.m; sourceTree = "<group>"; };
+		5E5E6F932160A799000DB65E /* UIImageView+UITouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+UITouch.h"; sourceTree = "<group>"; };
+		5E5E6F942160A799000DB65E /* UIScrollView+UITouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+UITouch.m"; sourceTree = "<group>"; };
+		5E5E6F952160A799000DB65E /* UIImageView+UITouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+UITouch.m"; sourceTree = "<group>"; };
+		5E5E6F992160A871000DB65E /* timg2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg2.jpeg; sourceTree = "<group>"; };
+		5E5E6F9A2160A871000DB65E /* selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selected.png; sourceTree = "<group>"; };
+		5E5E6F9B2160A871000DB65E /* notselect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notselect.png; sourceTree = "<group>"; };
+		5E5E6F9C2160A871000DB65E /* timg3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timg3.png; sourceTree = "<group>"; };
+		5E5E6F9D2160A871000DB65E /* timg1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg1.jpeg; sourceTree = "<group>"; };
+		5E5E6F9E2160A871000DB65E /* timg4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = timg4.gif; sourceTree = "<group>"; };
+		6A1B79700CE03541D9BE820A /* Pods-MZQBannerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MZQBannerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MZQBannerTests/Pods-MZQBannerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		82D2D2ADB4B8B1B3CF989121 /* Pods-MZQBanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MZQBanner.release.xcconfig"; path = "Pods/Target Support Files/Pods-MZQBanner/Pods-MZQBanner.release.xcconfig"; sourceTree = "<group>"; };
+		8B9FB17163D8F6E78F13321D /* Pods-MZQBannerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MZQBannerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MZQBannerUITests/Pods-MZQBannerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9937422D6FD566D64F63E267 /* libPods-MZQBannerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MZQBannerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A67BAE85C81F66320F816856 /* libPods-MZQBannerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MZQBannerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6F513C2B7E52932E9C53EB5 /* Pods-MZQBanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MZQBanner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MZQBanner/Pods-MZQBanner.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BD8C4E7A5EEAE3284DB59F5 /* libPods-MZQBanner.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAAF65DE4E991B1C7E649CFD /* libPods-MZQBannerTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71EBD83E230D7C6D015C8592 /* libPods-MZQBannerUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +121,8 @@
 				5E5E6F682160A69E000DB65E /* MZQBannerTests */,
 				5E5E6F732160A69E000DB65E /* MZQBannerUITests */,
 				5E5E6F4E2160A69D000DB65E /* Products */,
+				64F26F4A027C297648620DC1 /* Pods */,
+				F7D39C702145B2450ADB562E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +139,11 @@
 		5E5E6F4F2160A69D000DB65E /* MZQBanner */ = {
 			isa = PBXGroup;
 			children = (
-				5E5E6F502160A69D000DB65E /* AppDelegate.h */,
-				5E5E6F512160A69D000DB65E /* AppDelegate.m */,
-				5E5E6F532160A69D000DB65E /* ViewController.h */,
-				5E5E6F542160A69D000DB65E /* ViewController.m */,
-				5E5E6F562160A69D000DB65E /* Main.storyboard */,
-				5E5E6F592160A69E000DB65E /* Assets.xcassets */,
-				5E5E6F5B2160A69E000DB65E /* LaunchScreen.storyboard */,
-				5E5E6F5E2160A69E000DB65E /* Info.plist */,
-				5E5E6F5F2160A69E000DB65E /* main.m */,
+				5E5E6F8B2160A6DC000DB65E /* Application */,
+				5E5E6F8C2160A6DC000DB65E /* MZQView */,
+				5E5E6F822160A6DB000DB65E /* Resource */,
+				5E5E6F832160A6DC000DB65E /* Source */,
+				5E5E6F892160A6DC000DB65E /* ViewController */,
 			);
 			path = MZQBanner;
 			sourceTree = "<group>";
@@ -132,6 +166,85 @@
 			path = MZQBannerUITests;
 			sourceTree = "<group>";
 		};
+		5E5E6F822160A6DB000DB65E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				5E5E6F9B2160A871000DB65E /* notselect.png */,
+				5E5E6F9A2160A871000DB65E /* selected.png */,
+				5E5E6F9D2160A871000DB65E /* timg1.jpeg */,
+				5E5E6F992160A871000DB65E /* timg2.jpeg */,
+				5E5E6F9C2160A871000DB65E /* timg3.png */,
+				5E5E6F9E2160A871000DB65E /* timg4.gif */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		5E5E6F832160A6DC000DB65E /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				5E5E6F8A2160A6DC000DB65E /* Assets.xcassets */,
+				5E5E6F5B2160A69E000DB65E /* LaunchScreen.storyboard */,
+				5E5E6F5E2160A69E000DB65E /* Info.plist */,
+				5E5E6F5F2160A69E000DB65E /* main.m */,
+				5E5E6F562160A69D000DB65E /* Main.storyboard */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		5E5E6F892160A6DC000DB65E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5E5E6F532160A69D000DB65E /* ViewController.h */,
+				5E5E6F542160A69D000DB65E /* ViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		5E5E6F8B2160A6DC000DB65E /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				5E5E6F502160A69D000DB65E /* AppDelegate.h */,
+				5E5E6F512160A69D000DB65E /* AppDelegate.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		5E5E6F8C2160A6DC000DB65E /* MZQView */ = {
+			isa = PBXGroup;
+			children = (
+				5E5E6F912160A799000DB65E /* MZQScrollBannerView.h */,
+				5E5E6F922160A799000DB65E /* MZQScrollBannerView.m */,
+				5E5E6F932160A799000DB65E /* UIImageView+UITouch.h */,
+				5E5E6F952160A799000DB65E /* UIImageView+UITouch.m */,
+				5E5E6F902160A799000DB65E /* UIScrollView+UITouch.h */,
+				5E5E6F942160A799000DB65E /* UIScrollView+UITouch.m */,
+			);
+			path = MZQView;
+			sourceTree = "<group>";
+		};
+		64F26F4A027C297648620DC1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6F513C2B7E52932E9C53EB5 /* Pods-MZQBanner.debug.xcconfig */,
+				82D2D2ADB4B8B1B3CF989121 /* Pods-MZQBanner.release.xcconfig */,
+				6A1B79700CE03541D9BE820A /* Pods-MZQBannerTests.debug.xcconfig */,
+				1F9A0A5C5B0044BEBA6752EC /* Pods-MZQBannerTests.release.xcconfig */,
+				8B9FB17163D8F6E78F13321D /* Pods-MZQBannerUITests.debug.xcconfig */,
+				3967B7BE97E1DDEF6BC7EA3C /* Pods-MZQBannerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F7D39C702145B2450ADB562E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16C1CDFEEFD823B45D8F2BF4 /* libPods-MZQBanner.a */,
+				9937422D6FD566D64F63E267 /* libPods-MZQBannerTests.a */,
+				A67BAE85C81F66320F816856 /* libPods-MZQBannerUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +252,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E5E6F792160A69E000DB65E /* Build configuration list for PBXNativeTarget "MZQBanner" */;
 			buildPhases = (
+				47FBB5A2B27BC778325CEC5C /* [CP] Check Pods Manifest.lock */,
 				5E5E6F492160A69D000DB65E /* Sources */,
 				5E5E6F4A2160A69D000DB65E /* Frameworks */,
 				5E5E6F4B2160A69D000DB65E /* Resources */,
@@ -156,6 +270,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E5E6F7C2160A69E000DB65E /* Build configuration list for PBXNativeTarget "MZQBannerTests" */;
 			buildPhases = (
+				2621591E56873CE44D7C991C /* [CP] Check Pods Manifest.lock */,
 				5E5E6F612160A69E000DB65E /* Sources */,
 				5E5E6F622160A69E000DB65E /* Frameworks */,
 				5E5E6F632160A69E000DB65E /* Resources */,
@@ -174,6 +289,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E5E6F7F2160A69E000DB65E /* Build configuration list for PBXNativeTarget "MZQBannerUITests" */;
 			buildPhases = (
+				225D45DE8A17B84A7A65C3D3 /* [CP] Check Pods Manifest.lock */,
 				5E5E6F6C2160A69E000DB65E /* Sources */,
 				5E5E6F6D2160A69E000DB65E /* Frameworks */,
 				5E5E6F6E2160A69E000DB65E /* Resources */,
@@ -236,8 +352,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E5E6F5D2160A69E000DB65E /* LaunchScreen.storyboard in Resources */,
-				5E5E6F5A2160A69E000DB65E /* Assets.xcassets in Resources */,
+				5E5E6FA12160A871000DB65E /* notselect.png in Resources */,
+				5E5E6F9F2160A871000DB65E /* timg2.jpeg in Resources */,
+				5E5E6FA42160A871000DB65E /* timg4.gif in Resources */,
+				5E5E6FA02160A871000DB65E /* selected.png in Resources */,
+				5E5E6F8F2160A6DC000DB65E /* Assets.xcassets in Resources */,
 				5E5E6F582160A69D000DB65E /* Main.storyboard in Resources */,
+				5E5E6FA32160A871000DB65E /* timg1.jpeg in Resources */,
+				5E5E6FA22160A871000DB65E /* timg3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,12 +379,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		225D45DE8A17B84A7A65C3D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MZQBannerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2621591E56873CE44D7C991C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MZQBannerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47FBB5A2B27BC778325CEC5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MZQBanner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5E5E6F492160A69D000DB65E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E5E6F982160A799000DB65E /* UIImageView+UITouch.m in Sources */,
+				5E5E6F962160A799000DB65E /* MZQScrollBannerView.m in Sources */,
 				5E5E6F552160A69D000DB65E /* ViewController.m in Sources */,
+				5E5E6F972160A799000DB65E /* UIScrollView+UITouch.m in Sources */,
 				5E5E6F602160A69E000DB65E /* main.m in Sources */,
 				5E5E6F522160A69D000DB65E /* AppDelegate.m in Sources */,
 			);
@@ -433,11 +615,12 @@
 		};
 		5E5E6F7A2160A69E000DB65E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6F513C2B7E52932E9C53EB5 /* Pods-MZQBanner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F27UGKD5DX;
-				INFOPLIST_FILE = MZQBanner/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MZQBanner/Source/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,11 +633,12 @@
 		};
 		5E5E6F7B2160A69E000DB65E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82D2D2ADB4B8B1B3CF989121 /* Pods-MZQBanner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F27UGKD5DX;
-				INFOPLIST_FILE = MZQBanner/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MZQBanner/Source/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -467,6 +651,7 @@
 		};
 		5E5E6F7D2160A69E000DB65E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A1B79700CE03541D9BE820A /* Pods-MZQBannerTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +671,7 @@
 		};
 		5E5E6F7E2160A69E000DB65E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F9A0A5C5B0044BEBA6752EC /* Pods-MZQBannerTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -505,6 +691,7 @@
 		};
 		5E5E6F802160A69E000DB65E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B9FB17163D8F6E78F13321D /* Pods-MZQBannerUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F27UGKD5DX;
@@ -523,6 +710,7 @@
 		};
 		5E5E6F812160A69E000DB65E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3967B7BE97E1DDEF6BC7EA3C /* Pods-MZQBannerUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F27UGKD5DX;
